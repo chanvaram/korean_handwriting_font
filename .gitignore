@@ -1,0 +1,38 @@
+# 사전학습 가중치 (용량 큼)
+pretrained/
+
+# 생성 결과
+output/
+
+# 전처리 중간 파일
+data/preprocessed/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 에디터
+.vscode/
+.idea/
+*.swp
+
+# 로그
+*.log
+runs/
+wandb/
